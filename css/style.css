@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+  background: ##fff;
+  color: #203239;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1,6;
+  font-weight: lighter;
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;}
+
+h3 { 
+  color: #203239;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  margin:60px auto ;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: #203239;
+}
+.list-inline i:hover {
+  color: black;
+}
+ 
+ #introduction div {
+  margin-top: 400px;
+}
